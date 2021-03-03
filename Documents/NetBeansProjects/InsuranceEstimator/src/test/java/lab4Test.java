@@ -16,20 +16,13 @@ public class lab4Test {
     public lab4Test() {
     }
 
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        lab4.main(args);
-        fail("The test case is a prototype.");
-    }
-
+   
     @Test
     public void testCustomer() {
         System.out.println("Customer");
-        int customersage = 100;
+        int customersage = 30;
         lab4.Customer(customersage);
-        fail("The test case is a prototype.");
+       
     }
     
 }
