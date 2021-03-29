@@ -8,10 +8,9 @@
  *
  * @author hari's
  */
-class keyboard {
+public class InvalidAgeException extends Exception {
 
-    static int nextInt() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public InvalidAgeException(String errorMessage) {
+        super(errorMessage);
     }
-    
 }
